@@ -1,15 +1,14 @@
 import React from 'react';
 import './App.css';
 import SideMenu from './components/SideMenu';
-import Navbar from './components/Navbar';
-import logo from './logo.png';
+import TabPanel from './components/TabPanel.jsx';
+
 function App() {
   return (
       <>
-          
-          <Navbar />
+
+          <TabPanel />
           <SideMenu />
-          <img src={logo}/>
           
           </>
       
